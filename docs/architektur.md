@@ -28,7 +28,7 @@ Die API ist der definierte Zugang vom Browser zum Server. Der Browser bekommt ke
 | Tailwind und CSS | Gestaltung der Oberfläche | [globals.css](../src/app/globals.css), [PostCSS-Konfiguration](../postcss.config.mjs) |
 | PostgreSQL und `pg` | Persistente Daten und Transaktionen | [db.ts](../src/lib/db.ts), [Migrationen](../migrations/) |
 | Better Auth | E-Mail-Code-Anmeldung und Sitzungen | [auth.ts](../src/lib/auth.ts), [auth-database.ts](../src/lib/auth-database.ts) |
-| Nodemailer / SMTP | E-Mail-Codes und optionale Betriebswarnungen | [auth.ts](../src/lib/auth.ts), [backup-monitor.ts](../src/lib/backup-monitor.ts) |
+| Nodemailer / SMTP | E-Mail-Codes und optionale Betriebswarnungen | [auth.ts](../src/lib/auth.ts), [Monitor-Route mit Mailversand](../src/app/api/ops/backup-health/route.ts) |
 | Zod | Prüfung eingehender Daten | [security.ts](../src/lib/security.ts) |
 | Node.js, npm, ESLint, Tests | Ausführen, Pakete installieren und Änderungen prüfen | [package.json](../package.json), [tests](../tests/) |
 

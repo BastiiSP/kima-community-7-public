@@ -8,9 +8,11 @@ Ein kurzer Bedienungshänger nach Beitragserstellung und Wechsel zwischen normal
 
 ## Prüfstand
 
-Die Quellkopie ist zusammengestellt. Der lokale Projektcheck meldete null Fehler und null Warnungen; alle lokalen Markdown-Verweise und der Claude-Import sind gültig. Ein tatsächlicher Ladetest in frischen KI-Sitzungen wurde nicht ausgeführt. Typprüfung, Lint, Tests und Produktionsbuild dieser Kopie stehen noch aus. Frühere private Betriebs- oder Browsertests sind keine aktuelle Abnahme der öffentlichen Kopie.
+Am 16.11.2026 wurden in einer isolierten Kopie Typprüfung, Lint, 111 Tests und Produktionsbuild erfolgreich ausgeführt. Die Paketprüfung meldete keine bekannten Sicherheitslücken zum Abfragezeitpunkt. Ein Build mit synthetischen Geheimnismarkern ergab keine dieser Marker in den untersuchten öffentlich ausgelieferten Dateien.
 
-Die Veröffentlichung des Codes ist keine Freigabe für unbeaufsichtigten Gruppenbetrieb. Reale E-Mail-Zustellung, Hosting, Datenbankrollen, Sicherung/Wiederherstellung, Datenschutz und die eigenen Betriebsabläufe müssen für jede neue Umgebung eingerichtet und geprüft werden.
+Die lokalen Dokumentverweise und der Claude-Import wurden geprüft; der Projektcheck meldete null Fehler und null Warnungen. Ein tatsächlicher automatischer Ladetest in frischen KI-Sitzungen wurde nicht ausgeführt. Secret-Scanning des vorgesehenen Gitbestands ergab keine Treffer. Diese Prüfungen sind keine Garantie gegen unbekannte Schwachstellen.
+
+Die Veröffentlichung des Codes ist keine Freigabe für unbeaufsichtigten Gruppenbetrieb. Reale E-Mail-Zustellung, Hosting, Datenbankrollen, Sicherung/Wiederherstellung, Datenschutz und eigene Betriebsabläufe müssen für jede neue Umgebung eingerichtet und geprüft werden. Frühere private Betriebs- oder Browsertests sind keine Abnahme einer eigenen Installation.
 
 ## Nächste Schritte
 

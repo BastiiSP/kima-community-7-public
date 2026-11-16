@@ -33,4 +33,3 @@ Für eine eigene dauerhafte Umgebung gelten die [Einrichtung und API](docs/techn
 - [Produktumfang](docs/projekt.md): Funktionen und Grenzen
 - [Projektregeln](AGENTS.md) und [Coding Standards](docs/coding-standards.md)
 
-Dieses Repository enthält keine eingeräumte Open-Source-Lizenz. Die öffentliche Lesbarkeit allein erteilt keine weitergehenden Nutzungsrechte.
