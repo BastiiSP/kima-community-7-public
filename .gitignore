@@ -1,0 +1,44 @@
+# Lokale Umgebungsvariablen und Geheimnisse
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Betriebssystemdateien
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Entwicklung und Build
+node_modules/
+.next/
+.vercel/
+coverage/
+*.tsbuildinfo
+
+# Private Ergebnisse und Betriebsdaten
+/Ergebnisse/
+/backups/
+/archives/
+/recovery/
+/restore/
+/private/
+/ops/
+*.dump
+*.sql.gz
+*.backup
+*.enc
+*.aes
+*production*.env
+*owner*.env
+backup-config*.json
+restore-config*.json
+recovery-ledger*.json
+last-backup.json
+restore-ok.json
